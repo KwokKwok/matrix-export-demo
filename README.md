@@ -16,3 +16,8 @@
 1. 进入 `react-lib`
 1. `pnpm run build` 生成类型声明和库文件
 1. `pnpm link --global` 等下可以直接在别的项目中用
+
+## 使用
+
+1. `pnpm link --global react-lib` 在当前项目中引入
+1. `import { MatrixComponent, renderMatrixComponent } from "react-lib";`
