@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { renderMatrixComponent, ReactApp, MatrixComponent } from "react-lib";
-import "./index.css";
+import "react-lib/dist/style.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
